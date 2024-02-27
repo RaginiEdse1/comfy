@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{ 
+			margin: 0;
+			padding: 0;
+		}
+		nav{
+			overflow: hidden;
+			position:relative;
+			width: 100%;
+		}
+
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			place-items: center;
+			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+			padding: 20px;
+			width: 100%;
+			position: relative;
+			z-index: 100px-;
+			background-color:white;
+
+		}
+		.navbar a{
+			color: rgba(50, 50, 50);
+			text-decoration: none;
+			font-weight: 700;
+			margin-left: 90px;
+			transition: 0.5s ease-in-out;
+		}
+		.navbar a:hover {
+			color: #BA972f;
+			cursor:all-scroll;
+		}
+
+		ul{
+			display: flex;
+			list-style:none;
+			place-items: center;
+		}
+		li{
+			margin-left: 50px;
+		}
+		#main{
+			background-color:ghostwhite;
+	width: 100%;
+	height: 100vh;
+	overflow:hidden;
+	position: relative;
+}
+.gradient{
+	position:absolute;
+	background-color: rgba(3, 45, 25, 0.5);
+	width:100%;
+	height:100vh;
+	z-index:1;
+	display:flex;
+	place-items:left;
+	flex-direction:column ;
+	text-align:left;
+	justify-content:center;
+}
+#main img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+	}
+	.main-text{
+		color: white;
+	}
+	.main-button{
+		margin-left: 2cm;
+		margin-top: 50px;
+	}
+	#btn1 {
+		background-color: #BA972f;
+		border:2px solid #BA972f;
+		padding:17px 28px ;
+		font-size:22px ;
+		border-radius: 10px;
+		color: white;
+		font: weight 500;
+		transition: o.5s ease-in-out; 	
+	}
+	#btn1:hover{
+		background-color: #d6b34b;
+		border: 2px solid #d6b34b;
+	}
+#btn2{
+		padding: 17px 20px;
+		background-color: transparent;
+		font-size: 22px;
+		border:2px solid white;
+		border-radius: 10px;
+		color: white;
+		font-weight: 500;
+		transition: 0.5s ease-out;
+	}
+	#btn2:hover{
+		background-color: white;
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="navbar">
+			<div>
+				<img src="C:\Users\sunil\OneDrive\Desktop\sunil kr\sunil kr\Comfy-Sofa-Studio-3.webp" weight="250px" height="80px">
+			</div>
+			<div>
+				<ul>
+					<li>
+						<a>HOME</a>
+					</li>
+					<li>
+						<a>SERVICES</a>
+					</li>
+					<li>
+						<a>ABOUT</a>
+					</li>
+					<li>
+						<a>CONTACT</a>
+					</li>
+					 <li>
+						<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div id="main">
+	<div class="gradient">
+		<div class="main-text">
+		<h1>Welcome to <span style="color: #BA972f;">ComFi</span></h1>
+			<p>When transforming your living space into a haven of style and comfort,<br> Urban Ladder offers a stunning array of designer sofa sets that 
+			elevate your home decor game. <br>From the sleek lines of modern designs to the timeless elegance of traditional styles,<br> our collection caters to every
+			 taste and preference.</p>
+			 </div>
+			 <div class="main-button">
+				<button id="btn1">Show More</button>
+				<button id="btn2">Contact</button>
+			</div>
+	</div>
+	<img src="C:\Users\sunil\OneDrive\Desktop\sunil kr\sunil kr\comfy.jpeg">
+	</div>
+	
+</body>
+</html>
+
+
